@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgrey;
+            margin: 0px;
+        }
+
+        header{
+            width: 600px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        nav{
+            background-color: rgb(102,102,102);
+            padding: 3px;
+            box-shadow: 2px 2px 2px black;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px 30px 40px;
+        }
+
+        article{
+            background-color: lightgrey;
+        }
+        article> aside {
+            background-color: rgb(248, 235, 235);
+        }
+        nav> a {
+            text-decoration:solid;
+            background-color: grey;
+            color: white ;
+            font-weight: bold;
+
+            
+        }
+
+        nav> a:hover {
+            text-decoration: underline;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 1px;
+            margin: 0px;
+            text-align: center;
+        }
+    </style>
+    <title>Grouping Tags</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+          <article>
+                <aside>
+                    <h2>Noticias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quia a aliquam ducimus reprehenderit dolore nam minus illum voluptatum neque cupiditate fuga voluptates iusto est, culpa illo nulla accusamus ullam facilis facere temporibus necessitatibus eius. Odio id sequi blanditiis, quasi dolor corporis quas tempora aliquid reprehenderit, explicabo error inventore animi dignissimos a deleniti. Praesentium sunt asperiores unde repellat rem excepturi, non libero nemo dignissimos molestias enim est cupiditate nobis ea voluptas voluptatibus ad voluptatum quos iusto! Commodi, fugit eligendi, quaerat nobis consectetur rem expedita doloremque ex perspiciatis pariatur dolor quasi tenetur natus assumenda accusantium laborum omnis aliquid voluptatem, dolorem aut!</p>
+                    <p>Artigo escrito por</p>
+                </aside>
+          </article> 
+          <article>
+
+          </article> 
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Caio Marques</p>
+
+    </footer>
+</body>
+</html>
